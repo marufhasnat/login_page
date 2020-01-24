@@ -1,0 +1,73 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.container{
+        margin-left: 65px;
+        margin-top: 20px;
+    }
+    .box input[type="password"], .box input[type="text"]{
+            width: 127px;
+    }
+    .box input[type="password"]:focus , .box input[type="text"]:focus{
+    width: 140px;
+}
+    .box input[type="password"]:hover , .box input[type="text"]:hover{
+    width: 140px;
+    }
+    .box input[type="submit"]{
+        padding: 14px 36px;
+    }
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container{
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+	.box input[type="password"], .box input[type="text"]{
+        width: 140px;
+    }
+    .box input[type="password"]:focus , .box input[type="text"]:focus{
+    width: 150px;
+    }
+    .box input[type="password"]:hover , .box input[type="text"]:hover{
+        width: 150px;
+    }
+}
+
+
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container{
+        margin-left: 95px;
+        margin-top: 70px;
+    }
+    .box input[type="password"], .box input[type="text"]{
+            width: 127px;
+    }
+    .box input[type="password"]:focus , .box input[type="text"]:focus{
+    width: 137px;
+    }
+    .box input[type="password"]:hover , .box input[type="text"]:hover{
+    width: 137px;
+    }
+    .box input[type="submit"]{
+        padding: 14px 36px;
+    }
+	
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+    .container{
+        margin-left: 120px;
+        margin-top: 55px;
+    }
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
